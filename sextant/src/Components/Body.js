@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import IpAddressGetterIp4 from './IpAddressGetterIp4';
+import IpAddressGetterIp6 from './IpAddressGetterIp6';
 
 class Body extends Component {
     render() {
@@ -8,12 +10,12 @@ class Body extends Component {
                 <Container>
                     <Row>
                         <Col>
-                            <h3>Header1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3>IP4 address</h3>
+                            <IpAddressGetterIp4 />
                         </Col>
                         <Col>
-                            <h3>Header2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3>IP6 (IP4) address</h3>
+                            <IpAddressGetterIp6 />
                         </Col>
                     </Row>
                 </Container>
