@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Navbar, NavbarBrand } from 'react-bootstrap';
+import { Container, Navbar, NavLink, NavbarBrand } from 'react-bootstrap';
 
 class Header extends Component {
     render() {
@@ -7,9 +7,7 @@ class Header extends Component {
             <div>
                 <Navbar collapseOnSelect expand="md" bg="dark" variant='dark' >
                     <Container>
-                        <NavbarBrand href="#">
-                            <a className="navbar-brand">Sextant</a>
-                        </NavbarBrand>
+                        <NavbarBrand href="/">Sextant</NavbarBrand>
                     </Container>
                 </Navbar>
             </div>

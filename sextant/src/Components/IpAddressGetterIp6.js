@@ -6,7 +6,7 @@ class IpAddressGetterIp6 extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            ip_address: '...'
+            ip_address: 'No address'
         }
         this.processRequest = this.processRequest.bind(this);
     }
@@ -26,12 +26,6 @@ class IpAddressGetterIp6 extends Component {
                 ip_address: response.ip
             });
         }
-        // else {
-        //     var response = JSON.parse(xhr.responseText);
-        //     this.setState({
-        //         ip_address: response.ip
-        //     });
-        // }
     }
 
     render() {

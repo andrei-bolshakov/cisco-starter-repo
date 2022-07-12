@@ -6,7 +6,7 @@ class IpAddressGetterIp4 extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            ip_address: '...'
+            ip_address: 'No address'
         }
         this.processRequest = this.processRequest.bind(this);
     }
